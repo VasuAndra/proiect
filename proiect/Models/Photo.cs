@@ -31,8 +31,12 @@ namespace proiect.Models
         public IEnumerable<SelectListItem> Users { get; set; }
 
         public virtual Album Album { get; set; }
+<<<<<<< Updated upstream
         public IEnumerable<SelectListItem> Albums { get; set; }
 
         //comentariu test2
+=======
+        public IEnumerable<SelectListItem> Albums { get; set; } //diana
+>>>>>>> Stashed changes
     }
 }

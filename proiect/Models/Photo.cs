@@ -31,7 +31,7 @@ namespace proiect.Models
         public IEnumerable<SelectListItem> Users { get; set; }
 
         public virtual Album Album { get; set; }
-        
+        public IEnumerable<SelectListItem> Albums { get; set; }
 
         //comentariu test2
     }

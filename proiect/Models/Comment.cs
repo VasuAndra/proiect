@@ -12,13 +12,16 @@ namespace proiect.Models
         [Key]
         public int CommentId { get; set; }
 
+
+        [Required(ErrorMessage = "Add a comment")]
+        [MaxLength(255, ErrorMessage = "Comment can`t have more than 255 characters")]
         public string Content { get; set; }
 
         public DateTime Date { get; set; }
 
         //chei externe
         public int PhotoId { get; set; }
-        public int UserId { get; set; }
+        public string UserId { get; set; }
 
         public virtual Photo Photo { get; set; }
         public IEnumerable<SelectListItem> Photos { get; set; }

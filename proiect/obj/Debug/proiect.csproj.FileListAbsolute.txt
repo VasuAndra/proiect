@@ -208,6 +208,7 @@ C:\Users\Diana\Facultate\DAW\proiect-master\proiect\bin\Microsoft.Owin.Security.
 C:\Users\Diana\Facultate\DAW\proiect-master\proiect\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Diana\Facultate\DAW\proiect-master\proiect\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Diana\Facultate\DAW\proiect-master\proiect\obj\Debug\proiect.csproj.CopyComplete
+<<<<<<< HEAD
 C:\Users\Diana\Desktop\proiect-master\proiect\bin\proiect.dll.config
 C:\Users\Diana\Desktop\proiect-master\proiect\bin\proiect.dll
 C:\Users\Diana\Desktop\proiect-master\proiect\bin\proiect.pdb
@@ -313,3 +314,5 @@ C:\Users\Diana\Desktop\proiect-master\proiect\obj\Debug\proiect.csproj.CoreCompi
 C:\Users\Diana\Desktop\proiect-master\proiect\obj\Debug\proiect.csproj.CopyComplete
 C:\Users\Diana\Desktop\proiect-master\proiect\obj\Debug\proiect.dll
 C:\Users\Diana\Desktop\proiect-master\proiect\obj\Debug\proiect.pdb
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c

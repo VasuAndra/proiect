@@ -2,7 +2,10 @@
 using proiect.Models;
 using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -96,8 +99,12 @@ namespace proiect.Controllers
             // returnam lista de categorii            
             return selectList;
         }
+<<<<<<< HEAD
         
         /*public ActionResult Show(int id)
+=======
+        public ActionResult Show(int id)
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
         {
             Photo photo = db.dbPhotos.Find(id);
             ViewBag.Photo = photo;
@@ -113,6 +120,7 @@ namespace proiect.Controllers
             }*/
 
             //ViewBag.esteAdmin = User.IsInRole("Administrator");
+<<<<<<< HEAD
             //ViewBag.utilizatorCurent = User.Identity.GetUserId();
             //return View(photo);
         //}
@@ -124,6 +132,12 @@ namespace proiect.Controllers
             return View(photo);
         }
         
+=======
+            ViewBag.utilizatorCurent = User.Identity.GetUserId();
+            return View(photo);
+        }
+
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
         public ActionResult Edit(int id)
         {
             Photo photo = db.dbPhotos.Find(id);
@@ -191,6 +205,7 @@ namespace proiect.Controllers
             return RedirectToAction("Index");
         }
 
+<<<<<<< HEAD
 
         [HttpPost]
         public ActionResult Add(Photo photo)
@@ -206,5 +221,7 @@ namespace proiect.Controllers
             ModelState.Clear();
             return View();
         }
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
     }
 }

@@ -1,11 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.ComponentModel;
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+<<<<<<< HEAD
 using System.ComponentModel.DataAnnotations.Schema;
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
 
 namespace proiect.Models
 {
@@ -14,7 +20,10 @@ namespace proiect.Models
         [Key]
         public int PhotoId { get; set; }
         [Required(ErrorMessage = "Upload a photo")]
+<<<<<<< HEAD
         [DisplayName("Upload file")]
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
         public string Location { get; set; }
 
         [Required(ErrorMessage = "Add a description")]
@@ -37,8 +46,11 @@ namespace proiect.Models
         public virtual Album Album { get; set; }
 
         public IEnumerable<SelectListItem> Albums { get; set; }
+<<<<<<< HEAD
 
         [NotMapped]
         public HttpPostedFileBase ImageFile { get; set; }
+=======
+>>>>>>> eabc07c4fc38e6bb0811fad42e0c3922a265180c
     }
 }

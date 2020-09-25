@@ -1,2 +1,2 @@
 # proiect
-Team project for Web Applications Class ( C# and ASP.NET) with Pascal Diana
+Team project with Pascal Diana for Web Applications Class ( C# and ASP.NET) 
